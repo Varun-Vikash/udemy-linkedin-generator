@@ -8,6 +8,7 @@ let teacher = document.getElementById("teacher");
 let instruct = "Instructors";
 let form = document.getElementById("form");
 let container = document.querySelector(".container");
+let certificate = document.getElementById("certificate");
 
 let certificate_no = "UC-3308c41b-93cb-485a-9ee3-450729f8ef73";
 
@@ -62,7 +63,6 @@ generate.addEventListener("click", (e) => {
     container.style.backgroundColor = "white";
     container.style.height = "auto";
 
-    let certificate = document.getElementById("certificate");
     certificate.style.backgroundColor = "#f8f9fb";
     certificate.style.display = "flex";
     certificate.innerHTML = `<div class="logo">

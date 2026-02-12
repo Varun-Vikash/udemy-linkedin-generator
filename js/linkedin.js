@@ -5,6 +5,7 @@ let length = document.getElementById("length");
 let course = document.getElementById("course");
 let form = document.getElementById("form");
 let container = document.querySelector(".container");
+let certificate = document.getElementById("certificate");
 
 let generate = document.getElementById("Generate");
 generate.addEventListener("click", (e) => {
@@ -33,7 +34,6 @@ generate.addEventListener("click", (e) => {
   let rand3 = c + (d - 1) * Math.random(); //Main Formula
   let rand4 = Math.round(rand3);
 
-  let certificate = document.getElementById("certificate");
   certificate.style.display = "block";
   certificate.innerHTML = `<div class="outer">
   <div class="light-br">
